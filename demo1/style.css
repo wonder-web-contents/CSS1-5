@@ -1,0 +1,103 @@
+body {
+    background: #eee;
+}
+
+body > div {
+    width: 1170px;
+    height: 980px;
+    margin: 0 auto;
+    position: relative;
+    background: white;
+}
+img {
+    display: block;
+}
+.animal {
+    position: absolute;
+}
+.animal h2 {
+    display: none;
+    margin: 0;
+    bottom: 170px;
+    padding: 0;
+}
+
+.animal > img {
+    border-bottom: white 8px solid;
+    padding-bottom: 22px;
+}
+.animal > img:hover {
+    border-bottom: chocolate 8px solid;
+    padding-bottom: 22px;
+}
+
+.dog {
+    left: 20px;
+    bottom: 30px;
+}
+
+.dog > h2 {
+    display: block;
+    position: absolute;
+    left: -20px;
+    bottom: 170px;
+}
+
+.cat {
+    left: 210px;
+    bottom: 30px;
+}
+
+.cat:hover > h2 {
+    display: block;
+    position: absolute;
+    left: -210px;
+    bottom: 170px;
+}
+
+.cockatiel {
+    left: 400px;
+    bottom: 30px;
+}
+
+.cockatiel:hover > h2 {
+    display: block;
+    position: absolute;
+    left: -400px;
+    bottom: 170px;
+}
+
+.fox {
+    left: 590px;
+    bottom: 30px;
+}
+
+.fox:hover > h2 {
+    display: block;
+    position: absolute;
+    left: -590px;
+    bottom: 170px;
+}
+.hedgehog {
+    left: 780px;
+    bottom: 30px;
+}
+
+.hedgehog:hover > h2 {
+    display: block;
+    position: absolute;
+    left: -780px;
+    bottom: 170px;
+}
+
+.goat {
+    left: 970px;
+    bottom: 30px;
+}
+
+.goat:hover > h2 {
+    display: block;
+    position: absolute;
+    left: -970px;
+    bottom: 170px;
+}
