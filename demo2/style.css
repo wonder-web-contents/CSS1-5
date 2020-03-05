@@ -1,0 +1,62 @@
+.suisou{
+    width: 1000px;
+    height: 800px;
+    background: url("./images/suisou.png");
+}
+
+
+.text {
+    width: 600px;
+    display: none;
+    color: azure;
+    border: dashed azure 2px;
+}
+
+h2 {
+    text-decoration: underline;
+    margin: 0 0 0 30px;
+}
+
+
+.hugu {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+}
+
+.hugu:hover > .text {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 250px;
+    width: 600px;
+}
+
+
+.kumanomi {
+    position: absolute;
+    top: 350px;
+    left: 700px;
+}
+
+.kumanomi:hover > .text {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 250px;
+}
+
+
+.same {
+    position: absolute;
+    top: 620px;
+    left: 50px;
+}
+
+.same:hover > .text {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 250px;
+    width: 600px;
+}
